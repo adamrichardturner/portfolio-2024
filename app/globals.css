@@ -31,3 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+
+/* globals.css file */
+h1 {
+  font-size: 32px;
+  font-family: var(--font-league);
+}
+
+p {
+  font-size: 16px;
+  font-family: var(--font-inter);
+}
