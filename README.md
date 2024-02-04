@@ -1,12 +1,12 @@
 # Adam Turner | Software Engineer Portfolio
 
-This is my [Next.js](https://nextjs.org/) minimalist portfolio or web 'contact card'.
+This is my minimalist portfolio or web 'contact card', built with Next.js.
 
-It was crafted with a simple design in mind to serve as a straight forward means to contact myself for professional enquiries.
+It was crafted with a simple design in mind, to serve as a straight forward means to contact myself for professional enquiries.
 
 ## Preview
 
-![](preview.png)
+![](screenshot.png)
 
 ## Live Site
 
