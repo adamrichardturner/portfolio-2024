@@ -42,3 +42,10 @@ p {
   font-size: 16px;
   font-family: var(--font-inter);
 }
+
+.hero {
+  background-image: url("/hero-shape-right.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
