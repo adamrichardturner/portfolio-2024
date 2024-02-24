@@ -1,12 +1,12 @@
 import type { Metadata } from "next"
-import { Inter, League_Spartan } from "next/font/google"
+import { Inter, Roboto } from "next/font/google"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
-const league = League_Spartan({
+const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "600", "700", "800"],
+  weight: ["400", "700", "900"],
   variable: "--font-league",
 })
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en' className={`${inter.variable} ${league.variable}`}>
+    <html lang='en' className={`${inter.variable} ${roboto.variable}`}>
       <body className={inter.className}>{children}</body>
     </html>
   )

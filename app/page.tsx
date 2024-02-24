@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <main className='flex h-screen hero items-center p-4'>
+    <main className='flex h-screen overflow-hidden hero items-center p-4'>
       <div className='container flex flex-row items-center justify-center space-x-4'>
         <div>
           <Image
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className='text-white space-y-4'>
           <div className='flex flex-row items-center justify-start space-x-3'>
-            <h1 className='text-4xl font-league md:text-6xl font-black leading-none'>
+            <h1 className='text-4xl font-inter md:text-6xl font-semibold leading-none'>
               Adam Richard Turner
             </h1>
           </div>
