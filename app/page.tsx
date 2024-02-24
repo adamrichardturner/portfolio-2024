@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <main className='flex h-screen overflow-hidden hero items-center p-4'>
+    <main className='flex h-svh overflow-hidden overscroll-none hero items-center p-4'>
       <div className='container flex flex-row items-center justify-center space-x-4'>
         <div>
           <Image
