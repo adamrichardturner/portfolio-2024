@@ -5,6 +5,7 @@ import {
   FaSquareXTwitter,
   FaLinkedin,
   FaSquareYoutube,
+  FaMedium,
 } from "react-icons/fa6"
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
               Reach out to me via any of the below [Not looking for work]
             </h3>
             <div>
-              <ul className='flex flex-row space-x-2 text-4xl'>
+              <ul className='flex flex-row space-x-2 text-4xl items-center'>
                 <li>
                   <a
                     href='https://github.com/adamrichardturner/'
@@ -73,6 +74,15 @@ export default function Home() {
                     aria-label='Linkedin'
                   >
                     <FaLinkedin className='hover:md:shadow-md rounded hover:md:shadow-secondary transition-shadow' />
+                  </a>
+                </li>
+                <li className='bg-white w-[34.17px] h-[34.17px] rounded'>
+                  <a
+                    href='https://adamrichardturner.medium.com/'
+                    target='_blank'
+                    aria-label='Medium'
+                  >
+                    <FaMedium className='hover:md:shadow-md text-black p-1.5 w-[34.17px] h-[34.17px] rounded hover:md:shadow-secondary transition-shadow' />
                   </a>
                 </li>
                 <li>
